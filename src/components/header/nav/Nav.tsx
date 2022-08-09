@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './Nav.module.css';
 import {Link} from 'react-scroll';
-import CV from '../../../assets/files/CV.pdf';
+import CV from '../../../assets/files/CV.pdf'
 
 export const Nav = React.memo(() => {
     return (

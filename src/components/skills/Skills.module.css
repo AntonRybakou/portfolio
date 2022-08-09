@@ -1,9 +1,10 @@
 .skillsBlock {
-  min-height: 33.3333333333vh;
+  min-height: 50vh;
   color: white;
 }
 
 .skillsContainer {
+  width: 65%;
   flex-direction: column;
   justify-content: flex-start;
 }

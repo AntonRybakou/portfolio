@@ -2,11 +2,12 @@
 @import '../../common/styles/sass/mixins';
 
 .skillsBlock {
-  min-height: calc(100vh / 3);
+  min-height: calc(100vh / 2);
   color: white;
 }
 
 .skillsContainer {
+  width: 65%;
   flex-direction: column;
   justify-content: flex-start;
 }
