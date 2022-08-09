@@ -2,7 +2,7 @@ import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../../common/styles/Container.module.scss';
 import photo from '../../assets/images/photo.jpg'
-import {ParticlesComp} from "./Particles";
+import {ParticlesComp} from "./ParticlesComp";
 
 
 export const Main = React.memo(() => {
