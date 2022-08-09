@@ -6,20 +6,30 @@ import {Title} from '../../common/components/title/Title';
 import counterImage from '../../assets/images/projects/counter.png';
 import todoImage from '../../assets/images/projects/todolist.png';
 import socialImage from '../../assets/images/projects/social-network.png';
+import cardsImage from '../../assets/images/projects/cards.png';
 
 export const Projects = React.memo(() => {
     const projects = [
         {
             id: 1,
-            title: 'Counter',
-            description: 'TypeScript / React / Redux',
-            url: 'https://toshaby.github.io/counter/',
+            title: 'Learning cards',
+            description: 'Team work / GitHub / TypeScript / React / Redux-Toolkit / Formik / React-router-dom / Material-ui / Deploy (In progress)',
+            url: 'https://alexnewhere.github.io/friday-project/',
             style: {
-                backgroundImage: `url(${counterImage})`
+                backgroundImage: `url(${cardsImage})`
             }
         },
         {
             id: 2,
+            title: 'Social network',
+            description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy (In progress)',
+            url: 'https://github.com/ToshaBY/it-incubator-samurai-way',
+            style: {
+                backgroundImage: `url(${socialImage})`
+            }
+        },
+        {
+            id: 3,
             title: 'To-Do List',
             description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy',
             url: 'https://toshaby.github.io/todo-list/',
@@ -28,14 +38,14 @@ export const Projects = React.memo(() => {
             }
         },
         {
-            id: 3,
-            title: 'Social network',
-            description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy (In progress)',
-            url: 'https://github.com/ToshaBY/it-incubator-samurai-way',
+            id: 4,
+            title: 'Counter',
+            description: 'TypeScript / React / Redux',
+            url: 'https://toshaby.github.io/counter/',
             style: {
-                backgroundImage: `url(${socialImage})`
+                backgroundImage: `url(${counterImage})`
             }
-        }
+        },
     ]
 
     return (

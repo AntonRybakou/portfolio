@@ -24,22 +24,28 @@ export const Contacts = React.memo(() => {
         <div className={`${styleContainer.block} ${style.contactsBlock}`} id={'contacts'}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title={'Contact me'}/>
-                <form ref={form} className={style.formContainer} onSubmit={sendEmail}>
-                    <input type={'text'}
-                           placeholder={'Name'}
-                           name={'user_name'}
-                           required/>
-                    <input type={'email'}
-                           placeholder={'E-mail'}
-                           name={'user_email'}
-                           required/>
-                    <input type={'text'}
-                           placeholder={'Subject'}
-                           name={'subject'}
-                           required/>
-                    <textarea placeholder={'Message'}
-                              name={'message'}
-                              required/>
+                <form ref={form} className={style.formBlock} onSubmit={sendEmail}>
+                    <div className={style.formContainer}>
+                        <div className={style.formInputs}>
+                            <input type={'text'}
+                                   placeholder={'Name'}
+                                   name={'user_name'}
+                                   required/>
+                            <input type={'email'}
+                                   placeholder={'E-mail'}
+                                   name={'user_email'}
+                                   required/>
+                            <input type={'text'}
+                                   placeholder={'Subject'}
+                                   name={'subject'}
+                                   required/>
+                        </div>
+                        <div className={style.formMessage}>
+                        <textarea placeholder={'Message'}
+                                  name={'message'}
+                                  required/>
+                        </div>
+                    </div>
                     <button type={'submit'}
                             className={styleButton.primary}>
                         Send
