@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.403ec72f.css",
-    "main.js": "/portfolio/static/js/main.3776e967.js",
+    "main.css": "/portfolio/static/css/main.20dec2c3.css",
+    "main.js": "/portfolio/static/js/main.048b7357.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/photo.jpg": "/portfolio/static/media/photo.b9f6d7e5144ffd094b7a.jpg",
     "static/media/social-network.png": "/portfolio/static/media/social-network.4245a1a6f0be6a86fefa.png",
     "static/media/counter.png": "/portfolio/static/media/counter.3ae024b5e80cf7f0e418.png",
     "static/media/CV.pdf": "/portfolio/static/media/CV.1385d04daa94eefa7794.pdf",
     "static/media/todolist.png": "/portfolio/static/media/todolist.86aed081261705076048.png",
+    "static/media/webstorm.png": "/portfolio/static/media/webstorm.d54b7f863e2faff3f7ae.png",
+    "static/media/cards.png": "/portfolio/static/media/cards.39a197df7aa5c23ef2d3.png",
     "static/media/react.png": "/portfolio/static/media/react.2c61e2f6fd84e73a418e.png",
     "static/media/github.png": "/portfolio/static/media/github.f11021803f68852df283.png",
     "static/media/sass.png": "/portfolio/static/media/sass.931eeac6dee58350ad7c.png",
@@ -17,12 +19,12 @@
     "static/media/typescript.png": "/portfolio/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/js.png": "/portfolio/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/portfolio/index.html",
-    "main.403ec72f.css.map": "/portfolio/static/css/main.403ec72f.css.map",
-    "main.3776e967.js.map": "/portfolio/static/js/main.3776e967.js.map",
+    "main.20dec2c3.css.map": "/portfolio/static/css/main.20dec2c3.css.map",
+    "main.048b7357.js.map": "/portfolio/static/js/main.048b7357.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.403ec72f.css",
-    "static/js/main.3776e967.js"
+    "static/css/main.20dec2c3.css",
+    "static/js/main.048b7357.js"
   ]
 }
