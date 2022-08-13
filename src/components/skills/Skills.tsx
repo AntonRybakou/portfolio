@@ -13,6 +13,7 @@ import git from '../../assets/images/icons/git.png'
 import github from '../../assets/images/icons/github.png'
 import sass from '../../assets/images/icons/sass.png'
 import webstorm from '../../assets/images/icons/webstorm.png'
+import mui from '../../assets/images/icons/mui.png'
 
 export const Skills = React.memo(() => {
     const skills = [
@@ -24,8 +25,10 @@ export const Skills = React.memo(() => {
         {id: 6, title: 'Redux', icon: redux},
         {id: 7, title: 'Git', icon: git},
         {id: 8, title: 'Github', icon: github},
-        {id: 9, title: 'Sass/Scss', icon: sass},
-        {id: 10, title: 'WebStorm', icon: webstorm}
+        {id: 9, title: 'WebStorm', icon: webstorm},
+        {id: 10, title: 'Sass/Scss', icon: sass},
+        {id: 11, title: 'MUI', icon: mui},
+
     ];
 
     return (
