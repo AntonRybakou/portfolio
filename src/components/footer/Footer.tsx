@@ -10,7 +10,7 @@ import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 export const Footer = React.memo(() => {
     const socialLinks = [
         {id: 1, icon: faGithub, link: 'https://github.com/ToshaBY'},
-        {id: 2, icon: faLinkedin, link: 'https://www.linkedin.com/in/tosharybakov/'},
+        {id: 2, icon: faLinkedin, link: 'https://www.linkedin.com/in/antonrybakov/'},
         {id: 3, icon: faTelegram, link: 'https://t.me/untosha'},
         {id: 4, icon: faEnvelope, link: 'mailto:anton.rybakou@gmail.com'},
     ]
