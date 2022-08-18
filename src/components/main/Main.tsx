@@ -4,9 +4,7 @@ import styleContainer from '../../common/styles/Container.module.scss';
 import photo from '../../assets/images/photo.jpg'
 import {ParticlesComp} from "./ParticlesComp";
 
-
 export const Main = React.memo(() => {
-
     return (
         <div className={`${styleContainer.block} ${style.mainBlock}`} id={'main'}>
             <ParticlesComp/>
