@@ -6,15 +6,24 @@
 
   .content {
     & span {
-      @include text($fontPrimary, 24px, 300)
+      @include text($fontPrimary, 24px, 300);
     }
 
     & h1 {
-      @include text($fontPrimary, 40px, 700)
+      @include text($fontPrimary, 40px, 700);
     }
 
     & p {
-      @include text($fontPrimary, 24px, 200)
+      @include text($fontPrimary, 24px, 200);
+    }
+
+    & a {
+      @include text($fontPrimary, 18px, 200);
+      text-decoration: none;
+
+      &:hover {
+        color: $colorPrimary;
+      }
     }
   }
 

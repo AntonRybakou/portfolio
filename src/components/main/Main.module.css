@@ -19,6 +19,16 @@
   font-weight: 200;
   color: white;
 }
+.mainBlock .content a {
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  font-weight: 200;
+  color: white;
+  text-decoration: none;
+}
+.mainBlock .content a:hover {
+  color: yellow;
+}
 .mainBlock .photo {
   width: 300px;
   position: relative;
