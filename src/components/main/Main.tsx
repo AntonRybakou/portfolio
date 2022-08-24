@@ -1,7 +1,6 @@
 import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../../common/styles/Container.module.scss';
-// import styleButton from "../../common/styles/Buttons.module.scss";
 import CV from '../../assets/files/CV.pdf';
 import photo from '../../assets/images/photo.jpg'
 import {ParticlesComp} from "./ParticlesComp";
