@@ -12,4 +12,4 @@ Check how it's look like on [gh-pages](https://toshaby.github.io/portfolio/)
 - [emailjs](https://www.emailjs.com/docs/examples/reactjs/)
 
 ### Screenshot:
-![img.png](img.png)
+![img.png](src/assets/images/img.png)
