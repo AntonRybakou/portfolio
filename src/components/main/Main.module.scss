@@ -19,7 +19,6 @@
 
     & a {
       @include text($fontPrimary, 18px, 200);
-      text-decoration: none;
 
       &:hover {
         color: $colorPrimary;
