@@ -7,6 +7,7 @@ import counterImage from '../../assets/images/projects/counter.png';
 import todoImage from '../../assets/images/projects/todolist.png';
 import socialImage from '../../assets/images/projects/social-network.png';
 import cardsImage from '../../assets/images/projects/cards.png';
+import eShop from '../../assets/images/projects/E-shop.png';
 
 export const Projects = React.memo(() => {
   const projects = [
@@ -53,6 +54,15 @@ export const Projects = React.memo(() => {
       url: 'https://arhifranki.github.io/portfolio',
       style: {
         backgroundImage: `url(${socialImage})`,
+      },
+    },
+    {
+      id: 6,
+      title: 'E-shop',
+      description: 'TypeScript / React / Redux / Redux Toolkit / styled components / eslint / prettier / React modal',
+      url: 'https://github.com/ToshaBY/sam-test',
+      style: {
+        backgroundImage: `url(${eShop})`,
       },
     },
   ];
