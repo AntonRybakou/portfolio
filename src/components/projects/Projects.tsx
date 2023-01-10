@@ -22,6 +22,16 @@ export const Projects = React.memo(() => {
     },
     {
       id: 2,
+      title: 'To-Do List',
+      description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy',
+      url: 'https://toshaby.github.io/todo-list/',
+      style: {
+        backgroundImage: `url(${todoImage})`,
+      },
+    },
+
+    {
+      id: 3,
       title: 'Social network',
       description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy (In progress)',
       url: 'https://github.com/ToshaBY/it-incubator-samurai-way',
@@ -30,34 +40,7 @@ export const Projects = React.memo(() => {
       },
     },
     {
-      id: 3,
-      title: 'To-Do List',
-      description: 'TypeScript / React / MUI / Storybook / Redux / Redux-Thunk / Axios / Formik / React-router-dom / Unit tests / Deploy',
-      url: 'https://toshaby.github.io/todo-list/',
-      style: {
-        backgroundImage: `url(${todoImage})`,
-      },
-    },
-    {
       id: 4,
-      title: 'Counter',
-      description: 'TypeScript / React / Redux',
-      url: 'https://toshaby.github.io/counter/',
-      style: {
-        backgroundImage: `url(${counterImage})`,
-      },
-    },
-    {
-      id: 5,
-      title: 'Friend\'s portfolio',
-      description: 'React / React-router / MUI / emailjs',
-      url: 'https://arhifranki.github.io/portfolio',
-      style: {
-        backgroundImage: `url(${socialImage})`,
-      },
-    },
-    {
-      id: 6,
       title: 'E-shop',
       description: 'TypeScript / React / Redux / Redux Toolkit / styled components / eslint / prettier / React modal',
       url: 'https://github.com/ToshaBY/sam-test',
@@ -65,6 +48,24 @@ export const Projects = React.memo(() => {
         backgroundImage: `url(${eShop})`,
       },
     },
+    {
+      id: 5,
+      title: 'Counter',
+      description: 'TypeScript / React / Redux',
+      url: 'https://toshaby.github.io/counter/',
+      style: {
+        backgroundImage: `url(${counterImage})`,
+      },
+    },
+    // {
+    //   id: 6,
+    //   title: 'Friend\'s portfolio',
+    //   description: 'React / React-router / MUI / emailjs',
+    //   url: 'https://arhifranki.github.io/portfolio',
+    //   style: {
+    //     backgroundImage: `url(${socialImage})`,
+    //   },
+    // },
   ];
 
   return (
