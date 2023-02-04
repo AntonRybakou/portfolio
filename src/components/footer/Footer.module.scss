@@ -28,3 +28,10 @@
   }
 }
 
+.socialItem {
+  color: white;
+
+  & :hover {
+    color: yellow;
+  }
+}

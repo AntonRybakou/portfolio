@@ -29,7 +29,7 @@ export const Footer = React.memo(() => {
           })}
         </div>
         <div className={style.copyright}>
-          © 2022 All rights reserved
+          © 2023 All rights reserved
         </div>
       </div>
     </div>
