@@ -16,7 +16,7 @@ export const Footer = React.memo(() => {
   ];
 
   return (
-    <div className={`${styleContainer.block} ${style.footerBlock}`}>
+    <footer className={`${styleContainer.block} ${style.footerBlock}`}>
       <div className={`${styleContainer.container} ${style.footerContainer}`}>
         <Title title={'Anton Rybakou'} />
         <div className={style.socialBlock}>
@@ -32,6 +32,6 @@ export const Footer = React.memo(() => {
           © 2023 All rights reserved
         </div>
       </div>
-    </div>
+    </footer>
   );
 });

@@ -7,7 +7,7 @@ import {ParticlesComp} from "./ParticlesComp";
 
 export const Main = React.memo(() => {
     return (
-        <div className={`${styleContainer.block} ${style.mainBlock}`} id={'main'}>
+        <main className={`${styleContainer.block} ${style.mainBlock}`} id={'main'}>
             <ParticlesComp/>
             <div className={styleContainer.container}>
                 <div className={style.content}>
@@ -23,6 +23,6 @@ export const Main = React.memo(() => {
                     <img src={photo} alt={'myPhoto'}/>
                 </div>
             </div>
-        </div>
+        </main>
     );
 })

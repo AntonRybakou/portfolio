@@ -21,7 +21,7 @@ export const Contacts = React.memo(() => {
     };
 
     return (
-        <div className={`${styleContainer.block} ${style.contactsBlock}`} id={'contacts'}>
+        <section className={`${styleContainer.block} ${style.contactsBlock}`} id={'contacts'}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
                 <Title title={'Contact me'}/>
                 <form ref={form} className={style.formBlock} onSubmit={sendEmail}>
@@ -52,6 +52,6 @@ export const Contacts = React.memo(() => {
                     </button>
                 </form>
             </div>
-        </div>
+        </section>
     );
 })

@@ -4,8 +4,8 @@ import {Nav} from './nav/Nav';
 
 export const Header = React.memo(() => {
     return (
-        <div className={style.header} id={'nav'}>
+        <header className={style.header} id={'nav'}>
             <Nav/>
-        </div>
+        </header>
     );
 })

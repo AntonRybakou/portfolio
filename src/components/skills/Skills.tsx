@@ -32,7 +32,7 @@ export const Skills = React.memo(() => {
     ];
 
     return (
-        <div className={`${styleContainer.block} ${style.skillsBlock}`} id={'skills'}>
+        <section className={`${styleContainer.block} ${style.skillsBlock}`} id={'skills'}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <Title title={'Skills'}/>
                 <div className={styleContainer.contentContainer}>
@@ -43,6 +43,6 @@ export const Skills = React.memo(() => {
                     )}
                 </div>
             </div>
-        </div>
+        </section>
     );
 })

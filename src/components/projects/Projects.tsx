@@ -69,7 +69,7 @@ export const Projects = React.memo(() => {
   ];
 
   return (
-    <div className={`${styleContainer.block} ${style.projectsBlock}`} id={'projects'}>
+    <section className={`${styleContainer.block} ${style.projectsBlock}`} id={'projects'}>
       <div className={`${styleContainer.container} ${style.projectsContainer}`}>
         <Title title='Projects' />
 
@@ -87,6 +87,6 @@ export const Projects = React.memo(() => {
           }
         </div>
       </div>
-    </div>
+    </section>
   );
 });
