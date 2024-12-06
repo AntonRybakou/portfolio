@@ -24,7 +24,7 @@ export default function RootLayout({
       <body className={`${nunito.className} antialiased`}>
         <Providers>
           <NavHeader />
-          {children}
+          <main>{children}</main>
         </Providers>
       </body>
     </html>
