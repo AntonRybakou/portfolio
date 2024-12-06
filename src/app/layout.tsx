@@ -3,7 +3,6 @@ import { Nunito } from "next/font/google"
 import "./globals.css"
 import { NavHeader } from "@/components/layout/nav-header"
 import { Providers } from "@/components/providers/providers"
-import { ThemeProvider } from "@/components/providers/theme-provider"
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -23,15 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${nunito.className} antialiased`}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="system"
-          enableSystem
-          disableTransitionOnChange
-        >
+        <Providers>
           <NavHeader />
           {children}
-        </ThemeProvider>
+        </Providers>
       </body>
     </html>
   )
