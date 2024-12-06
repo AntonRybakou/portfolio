@@ -6,8 +6,7 @@ export const Providers = ({ children }: PropsWithChildren) => {
   return (
     <ThemeProvider
       attribute="class"
-      defaultTheme="system"
-      enableSystem
+      defaultTheme="dark"
       disableTransitionOnChange
     >
       {children}
