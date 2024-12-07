@@ -1,8 +1,8 @@
-"use client"
+'use client'
 
-import { motion, useScroll, useTransform } from "motion/react"
-import type React from "react"
-import { useEffect, useRef, useState } from "react"
+import { motion, useScroll, useTransform } from 'motion/react'
+import type React from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 export type TTimelineItem = {
   date: string
@@ -28,7 +28,7 @@ export const Timeline = ({ title, description, data }: TTimelineProps) => {
 
   const { scrollYProgress } = useScroll({
     target: containerRef as React.RefObject<HTMLElement>,
-    offset: ["start 10%", "end 50%"],
+    offset: ['start 10%', 'end 50%'],
   })
 
   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height])
@@ -36,7 +36,7 @@ export const Timeline = ({ title, description, data }: TTimelineProps) => {
 
   return (
     <div className="w-full bg-background font-sans md:px-10" ref={containerRef}>
-      <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
+      <div className="max-w-7xl mx-auto py-12 px-4 md:px-8 lg:px-10">
         <h2 className="text-lg md:text-4xl mb-4 max-w-4xl">{title}</h2>
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">
           {/* <p className="text-sm md:text-base max-w-sm"> */}
@@ -44,11 +44,11 @@ export const Timeline = ({ title, description, data }: TTimelineProps) => {
         </p>
       </div>
 
-      <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
+      <div ref={ref} className="relative max-w-7xl mx-auto pb-12">
         {data.map((item, index) => (
           <div
             key={`${item.date}+${index}`}
-            className="flex justify-start pt-10 md:pt-40 md:gap-10"
+            className="flex justify-start pt-6 md:pt-40 md:gap-10"
           >
             <div className="sticky flex flex-col md:flex-row z-40 items-center top-40 self-start max-w-xs lg:max-w-sm md:w-full">
               <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
@@ -63,7 +63,7 @@ export const Timeline = ({ title, description, data }: TTimelineProps) => {
               <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
                 {item.date}
               </h3>
-              {item.content}{" "}
+              {item.content}{' '}
             </div>
           </div>
         ))}

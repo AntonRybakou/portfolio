@@ -1,17 +1,17 @@
-import type { Metadata } from "next"
-import { Nunito } from "next/font/google"
-import "./globals.css"
-import { NavHeader } from "@/components/layout/nav-header"
-import { Providers } from "@/components/providers/providers"
+import type { Metadata } from 'next'
+import { Nunito } from 'next/font/google'
+import './globals.css'
+import { NavHeader } from '@/components/layout/nav-header'
+import { Providers } from '@/components/providers/providers'
 
 const nunito = Nunito({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800', '900'],
 })
 
 export const metadata: Metadata = {
-  title: "Anton Rybakou",
-  description: "Curriculum Vitae",
+  title: 'Anton Rybakou',
+  description: 'Curriculum Vitae',
 }
 
 export default function RootLayout({
@@ -24,7 +24,9 @@ export default function RootLayout({
       <body className={`${nunito.className} antialiased`}>
         <Providers>
           <NavHeader />
-          <main>{children}</main>
+          <main className="flex flex-col mx-auto max-w-screen-lg">
+            {children}
+          </main>
         </Providers>
       </body>
     </html>
