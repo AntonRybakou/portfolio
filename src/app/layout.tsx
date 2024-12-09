@@ -2,6 +2,7 @@ import { Nunito } from 'next/font/google'
 import './globals.css'
 import { NavHeader } from '@/components/layout/nav-header'
 import { Providers } from '@/components/providers/providers'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const nunito = Nunito({
   subsets: ['latin'],
@@ -23,6 +24,7 @@ export default function RootLayout({
             </main>
           </div>
         </Providers>
+        <SpeedInsights />
       </body>
     </html>
   )
