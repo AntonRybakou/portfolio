@@ -21,9 +21,14 @@ export default function Home() {
           I'm Front-End Developer
         </p>
         <Button asChild variant="link" className="p-0 text-lg">
-          <Link href="/cv_anton_rybakou.pdf" download target="_blank">
+          <a
+            href="/cv_anton_rybakou.pdf"
+            download="cv_anton_rybakou.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Download className="mr-2 h-5 w-5" /> Download CV
-          </Link>
+          </a>
         </Button>
       </div>
       <div className="w-64 h-64 md:w-96 md:h-96 relative overflow-hidden order-1 md:order-2">
