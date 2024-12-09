@@ -1,12 +1,12 @@
-import { Button } from "@/components/ui/button";
-import { Download } from "lucide-react";
-import type { Metadata } from "next";
-import Image from "next/image";
+import { Button } from '@/components/ui/button'
+import { Download } from 'lucide-react'
+import type { Metadata } from 'next'
+import Image from 'next/image'
 
 export const metadata: Metadata = {
-  title: "About - Anton Rybakou",
-  description: "Curriculum Vitae",
-};
+  title: 'About - Anton Rybakou',
+  description: 'Curriculum Vitae',
+}
 
 export default function Home() {
   return (
@@ -37,12 +37,12 @@ export default function Home() {
           width={300}
           height={300}
           style={{
-            objectFit: "cover",
-            borderRadius: "15% 85% 15% 85% / 85% 15% 85% 15%",
+            objectFit: 'cover',
+            borderRadius: '15% 85% 15% 85% / 85% 15% 85% 15%',
           }}
           priority
         />
       </div>
     </div>
-  );
+  )
 }
