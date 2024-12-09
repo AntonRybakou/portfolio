@@ -1,13 +1,12 @@
-import { Button } from '@/components/ui/button'
-import { Download } from 'lucide-react'
-import type { Metadata } from 'next'
-import Image from 'next/image'
-import Link from 'next/link'
+import { Button } from "@/components/ui/button";
+import { Download } from "lucide-react";
+import type { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: 'About - Anton Rybakou',
-  description: 'Curriculum Vitae',
-}
+  title: "About - Anton Rybakou",
+  description: "Curriculum Vitae",
+};
 
 export default function Home() {
   return (
@@ -20,14 +19,14 @@ export default function Home() {
         <p className="text-xl md:text-2xl text-muted-foreground mb-8">
           I'm Front-End Developer
         </p>
-        <Button asChild variant="link" className="p-0 text-lg">
+        <Button asChild variant="link" className="p-0">
           <a
             href="/cv_anton_rybakou.pdf"
             download="cv_anton_rybakou.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Download className="mr-2 h-5 w-5" /> Download CV
+            <Download className="h-5 w-5" /> Download CV
           </a>
         </Button>
       </div>
@@ -35,14 +34,15 @@ export default function Home() {
         <Image
           src="/photo.jpg"
           alt="Anton Rybakou photo"
-          fill
+          width={300}
+          height={300}
           style={{
-            objectFit: 'cover',
-            borderRadius: '15% 85% 15% 85% / 85% 15% 85% 15%',
+            objectFit: "cover",
+            borderRadius: "15% 85% 15% 85% / 85% 15% 85% 15%",
           }}
           priority
         />
       </div>
     </div>
-  )
+  );
 }
