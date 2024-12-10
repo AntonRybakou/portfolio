@@ -7,21 +7,21 @@ export const NavHeader = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/40 dark:border-border">
       <div className="max-w-screen-lg mx-auto flex h-14 items-center justify-between px-4 lg:px-0">
-        <div />
+        <div className="w-9" />
         <nav>
           <ul className="flex gap-8 items-center">
             <li>
-              <Button asChild variant="link" className="p-0 text-lg">
+              <Button asChild variant="link" className="p-0 md:text-lg">
                 <Link href={'/'}>About</Link>
               </Button>
             </li>
             <li>
-              <Button asChild variant="link" className="p-0 text-lg">
+              <Button asChild variant="link" className="p-0 md:text-lg">
                 <Link href={'/skills'}>Skills</Link>
               </Button>
             </li>
             <li>
-              <Button asChild variant="link" className="p-0 text-lg">
+              <Button asChild variant="link" className="p-0 md:text-lg">
                 <Link href={'/expirience'}>Expirience</Link>
               </Button>
             </li>

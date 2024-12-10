@@ -1,67 +1,41 @@
 'use client'
-import { type TTimelineItem, Timeline } from '@/components/ui/timeline'
+import { Section2022 } from '@/app/expirience/_components/section-2022'
+import { Section2022_2 } from '@/app/expirience/_components/section-2022_2'
+import { Section2023 } from '@/app/expirience/_components/section-2023'
+import { Section2024 } from '@/app/expirience/_components/section-2024'
+import { Timeline } from '@/components/ui/timeline'
 import React from 'react'
 
 export const ExpirienceTimeline = () => {
   const data = {
-    title: 'Changelog from my journey',
+    title: 'Changelog of my journey',
     description:
-      'There are many things I have learned and experienced over the years.',
+      'There are many things I have learned and experienced over the years. Here is the latest.',
     data: [
       {
         date: '2024',
-        content: (
-          <div>
-            <h3>Humandev IP Limited</h3>
-            <div className="w-full h-96 border flex items-center justify-center">
-              Content
-            </div>
-          </div>
-        ),
+        content: <Section2024 />,
       },
       {
         date: '2023',
-        content: (
-          <div>
-            <h3>Humandev IP Limited</h3>
-            <div className="w-full h-96 border flex items-center justify-center">
-              Content
-            </div>
-          </div>
-        ),
+        content: <Section2023 />,
       },
       {
         date: '2022',
-        content: (
-          <div>
-            <h3>Soft Group Solutions</h3>
-            <div className="w-full h-96 border flex items-center justify-center">
-              Content
-            </div>
-          </div>
-        ),
+        content: <Section2022_2 />,
       },
       {
         date: '2022',
-        content: (
-          <div>
-            <h3>IT-incubator</h3>
-            <div className="w-full h-96 border flex items-center justify-center">
-              Content
-            </div>
-          </div>
-        ),
+        content: <Section2022 />,
       },
     ],
   }
 
   return (
-    <div className="w-full">
-      <Timeline
-        title={data.title}
-        description={data.description}
-        data={data.data}
-      />
-    </div>
+    <Timeline
+      title={data.title}
+      description={data.description}
+      data={data.data}
+    />
   )
 }

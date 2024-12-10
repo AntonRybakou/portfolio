@@ -6,5 +6,5 @@ export const metadata: Metadata = {
 }
 
 export default function SkillsPage() {
-  return <div>Skills</div>
+  return <div className="bg-custom-gradient">Skills</div>
 }

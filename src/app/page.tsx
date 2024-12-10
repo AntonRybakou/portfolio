@@ -26,7 +26,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Download className="h-5 w-5" /> Download CV
+            <Download className="h-5 w-5" />
+            Download CV
           </a>
         </Button>
       </div>
