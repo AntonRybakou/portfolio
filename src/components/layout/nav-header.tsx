@@ -6,10 +6,9 @@ import Link from 'next/link'
 export const NavHeader = () => {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/40 dark:border-border">
-      <div className="max-w-screen-lg mx-auto flex h-14 items-center justify-between px-4 lg:px-0">
-        <div className="w-9" />
+      <div className="max-w-screen-lg mx-auto flex h-14 items-center justify-center px-4 lg:px-0">
         <nav>
-          <ul className="flex gap-8 items-center">
+          <ul className="flex gap-10 items-center">
             <li>
               <Button asChild variant="link" className="p-0 md:text-lg">
                 <Link href={'/'}>About</Link>
@@ -27,7 +26,6 @@ export const NavHeader = () => {
             </li>
           </ul>
         </nav>
-        <ThemeSwitcher />
       </div>
     </header>
   )

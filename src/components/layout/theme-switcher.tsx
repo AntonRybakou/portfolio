@@ -1,11 +1,10 @@
 'use client'
-import { Moon, Sun } from 'lucide-react'
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
+import { Monitor, Moon, Sun } from 'lucide-react'
 import { useTheme } from 'next-themes'
-
-import { Button } from '@/components/ui/button'
 import { useEffect, useState } from 'react'
 
-export const ThemeSwitcher = () => {
+export function ThemeSwitcher() {
   const [mounted, setMounted] = useState<boolean>(false)
   const { theme, setTheme } = useTheme()
 
@@ -18,17 +17,36 @@ export const ThemeSwitcher = () => {
   }
 
   return (
-    <Button
-      variant="ghost"
-      size="icon"
-      onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
+    <ToggleGroup
+      size="sm"
+      type="single"
+      value={theme}
+      onValueChange={(value) => {
+        if (value) setTheme(value)
+      }}
+      className="border rounded-full p-1 w-fit text-muted-foreground"
     >
-      {theme === 'dark' ? (
-        <Sun className="h-4 w-4" />
-      ) : (
-        <Moon className="h-4 w-4" />
-      )}
-      <span className="sr-only">Toggle theme</span>
-    </Button>
+      <ToggleGroupItem
+        value="light"
+        aria-label="Light mode"
+        className="rounded-full border-none hover:bg-none"
+      >
+        <Sun className="size-4" />
+      </ToggleGroupItem>
+      <ToggleGroupItem
+        value="system"
+        aria-label="System mode"
+        className="rounded-full border-none hover:bg-none"
+      >
+        <Monitor className="size-4" />
+      </ToggleGroupItem>
+      <ToggleGroupItem
+        value="dark"
+        aria-label="Dark mode"
+        className="rounded-full border-none hover:bg-none"
+      >
+        <Moon className="size-4" />
+      </ToggleGroupItem>
+    </ToggleGroup>
   )
 }

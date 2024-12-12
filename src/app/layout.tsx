@@ -1,5 +1,6 @@
 import { Nunito } from 'next/font/google'
 import './globals.css'
+import { Footer } from '@/components/layout/footer'
 import { NavHeader } from '@/components/layout/nav-header'
 import { Providers } from '@/components/providers/providers'
 import { SpeedInsights } from '@vercel/speed-insights/next'
@@ -22,6 +23,7 @@ export default function RootLayout({
             <main className="flex-1 flex flex-col mx-auto max-w-screen-lg w-full">
               {children}
             </main>
+            <Footer />
           </div>
         </Providers>
         <SpeedInsights />

@@ -1,3 +1,4 @@
+import { InnerPage } from '@/app/skills/_components/inner'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -6,5 +7,9 @@ export const metadata: Metadata = {
 }
 
 export default function SkillsPage() {
-  return <div className="bg-custom-gradient">Skills</div>
+  return (
+    <div>
+      <InnerPage />
+    </div>
+  )
 }
