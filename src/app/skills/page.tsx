@@ -1,4 +1,4 @@
-import { InnerPage } from '@/app/skills/_components/inner'
+import { SkillsInnerPage } from '@/app/skills/_components/skills-inner-page'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
@@ -7,9 +7,5 @@ export const metadata: Metadata = {
 }
 
 export default function SkillsPage() {
-  return (
-    <div>
-      <InnerPage />
-    </div>
-  )
+  return <SkillsInnerPage />
 }

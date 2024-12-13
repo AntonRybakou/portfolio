@@ -19,7 +19,7 @@ export default function Home() {
         <p className="text-xl md:text-2xl text-muted-foreground mb-8">
           I'm Front-End Developer
         </p>
-        <Button asChild variant="link" className="p-0">
+        <Button asChild>
           <a
             href="/cv_anton_rybakou.pdf"
             download="cv_anton_rybakou.pdf"

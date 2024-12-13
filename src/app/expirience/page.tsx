@@ -3,7 +3,7 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Expirience - Anton Rybakou',
-  description: 'Page with expirience timeline',
+  description: 'Work expirience',
 }
 
 export default function Expirience() {
