@@ -1,6 +1,5 @@
 'use client'
 import { badgeVariants } from '@/components/ui/badge'
-import { Card } from '@/components/ui/card'
 import IconCloud from '@/components/ui/icon-cloud'
 import { SKILLS } from '@/constants/skills'
 import { cn } from '@/lib/utils'

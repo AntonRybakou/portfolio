@@ -45,6 +45,11 @@ export const SKILLS = [
     icon: 'github',
   },
   {
+    title: 'GitLab',
+    href: 'https://gitlab.com/',
+    icon: 'gitlab',
+  },
+  {
     title: 'Visual Studio Code',
     href: 'https://code.visualstudio.com/',
     icon: 'visualstudiocode',
@@ -74,11 +79,11 @@ export const SKILLS = [
     href: 'https://swr.vercel.app/',
     icon: 'swr',
   },
-  {
-    title: 'Recharts',
-    href: 'https://recharts.org/',
-    icon: 'recharts',
-  },
+  // {
+  //   title: "Recharts",
+  //   href: "https://recharts.org/",
+  //   icon: "recharts",
+  // },
   {
     title: 'React Table',
     href: 'https://tanstack.com/table/v8',
