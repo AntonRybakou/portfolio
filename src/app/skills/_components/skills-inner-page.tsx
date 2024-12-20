@@ -32,13 +32,16 @@ export const SkillsInnerPage = () => {
             return (
               <Link
                 key={skill.title}
-                className={cn('gap-1', badgeVariants({ variant: 'outline' }))}
+                className={cn(
+                  'gap-1 cursor-pointer',
+                  badgeVariants({ variant: 'outline' }),
+                )}
                 href={skill.href}
                 target="_blank"
               >
                 <Image
                   src={`/icons/${skill.icon}.svg`}
-                  alt={skill.title}
+                  alt={`${skill.title} icon`}
                   width={24}
                   height={24}
                 />
