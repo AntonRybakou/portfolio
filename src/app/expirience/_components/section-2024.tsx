@@ -14,7 +14,7 @@ export const Section2024 = () => {
         </Button>
       </p>
       <p>
-        <b>Period:</b> Dec-2023 – present
+        <b>Period:</b> Dec-2023 – Dec-2024
       </p>
       <p>
         <b>Project description:</b> A school management plaform for accounting,

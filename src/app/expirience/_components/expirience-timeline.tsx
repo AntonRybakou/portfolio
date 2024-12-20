@@ -5,6 +5,7 @@ import { Section2023 } from '@/app/expirience/_components/section-2023'
 import { Section2024 } from '@/app/expirience/_components/section-2024'
 import { Timeline } from '@/components/ui/timeline'
 import React from 'react'
+import { Section2024_2 } from './section-2024_2'
 
 export const ExpirienceTimeline = () => {
   const data = {
@@ -12,6 +13,10 @@ export const ExpirienceTimeline = () => {
     description:
       'There are many things I have learned and experienced over the years. Here is the latest.',
     data: [
+      {
+        date: '2024',
+        content: <Section2024_2 />,
+      },
       {
         date: '2024',
         content: <Section2024 />,
