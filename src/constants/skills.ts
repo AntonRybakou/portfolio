@@ -1,5 +1,15 @@
 export const SKILLS = [
   {
+    title: 'React',
+    href: 'https://react.dev/',
+    icon: 'react',
+  },
+  {
+    title: 'Next.js',
+    href: 'https://nextjs.org/',
+    icon: 'nextdotjs',
+  },
+  {
     title: 'TypeScript',
     href: 'https://www.typescriptlang.org/',
     icon: 'typescript',
@@ -8,11 +18,6 @@ export const SKILLS = [
     title: 'JavaScript',
     href: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
     icon: 'javascript',
-  },
-  {
-    title: 'React',
-    href: 'https://react.dev/',
-    icon: 'react',
   },
   {
     title: 'HTML5',
@@ -24,11 +29,7 @@ export const SKILLS = [
     href: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
     icon: 'css3',
   },
-  {
-    title: 'Next.js',
-    href: 'https://nextjs.org/',
-    icon: 'nextdotjs',
-  },
+
   {
     title: 'Vercel',
     href: 'https://vercel.com/',
@@ -49,11 +50,11 @@ export const SKILLS = [
     href: 'https://gitlab.com/',
     icon: 'gitlab',
   },
-  {
-    title: 'Visual Studio Code',
-    href: 'https://code.visualstudio.com/',
-    icon: 'visualstudiocode',
-  },
+  // {
+  //   title: 'Visual Studio Code',
+  //   href: 'https://code.visualstudio.com/',
+  //   icon: 'visualstudiocode',
+  // },
   {
     title: 'WebStorm',
     href: 'https://www.jetbrains.com/webstorm/',
