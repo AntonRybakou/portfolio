@@ -38,14 +38,12 @@ export const cloudProps: Omit<ICloud, 'children'> = {
 }
 
 export const renderCustomIcon = (icon: SimpleIcon, theme: string) => {
-  const bgHex = theme === 'light' ? '#f3f2ef' : '#080510'
-  const fallbackHex = theme === 'light' ? '#000' : '#fff'
   const minContrastRatio = 0
 
   return renderSimpleIcon({
     icon,
-    bgHex,
-    fallbackHex,
+    bgHex: '#0000',
+    fallbackHex: theme === 'dark' ? '#ffffff' : '#000000',
     minContrastRatio,
     size: 42,
     aProps: {
@@ -81,6 +79,8 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
 
   return (
     // @ts-ignore
-    <Cloud {...cloudProps}>{renderedIcons}</Cloud>
+    <div className="dark:invert">
+      <Cloud {...cloudProps}>{renderedIcons}</Cloud>
+    </div>
   )
 }
