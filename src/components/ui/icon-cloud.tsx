@@ -78,7 +78,6 @@ export default function IconCloud({ iconSlugs }: DynamicCloudProps) {
   }, [data, theme])
 
   return (
-    // @ts-ignore
     <div className="dark:invert">
       <Cloud {...cloudProps}>{renderedIcons}</Cloud>
     </div>
