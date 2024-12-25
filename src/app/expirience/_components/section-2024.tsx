@@ -37,15 +37,11 @@ export const Section2024 = () => {
         </li>
         <li>
           Implemented responsive design principles and optimized the platform
-          for mobile devices.
+          for mobile devices
         </li>
         <li>
-          Developed and maintained the backend functionality, including data
-          storage, retrieval, and processing
-        </li>
-        <li>
-          Collaborated with stakeholders to gather requirements and deliver
-          actionable solutions
+          Collaborated with teachers from Ghana and India to gather requirements
+          and deliver actionable solutions
         </li>
         <li>
           Performed testing and debugging to ensure high-quality standards and

@@ -26,12 +26,19 @@ export const Section2024_2 = () => {
         <b>Responsibilities:</b>
       </p>
       <ul className="ml-6 list-disc [&>li]:mt-1">
-        <li>Front-end stuff</li>
+        <li>
+          Build scalable and maintainable web applications according to the
+          requirements
+        </li>
+        <li>
+          Collaborate with cross-functional teams to deliver high-quality
+          software solutions
+        </li>
       </ul>
       <p>
-        <b>Technologies and tools:</b> TypeScript, React, Next.js, TailwindCSS,
-        shadcn/ui, RadixUI, i18next, Zustand, SWR, Tanstack Querry, Tanstack
-        Tables, Recharts, React-hook-form, Zod, YouTrack, GitHub
+        <b>Technologies and tools:</b> React, Vite, Next.js, TypeScript,
+        TailwindCSS, shadcn/ui, RadixUI, i18next, Tanstack Router / Querry /
+        Tables, React-hook-form, Zod, GitLab, Jira,
       </p>
     </Card>
   )
