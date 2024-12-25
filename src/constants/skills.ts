@@ -56,6 +56,11 @@ export const SKILLS = [
   //   icon: 'visualstudiocode',
   // },
   {
+    title: 'Zed',
+    href: 'https://zed.dev/',
+    icon: 'zedindustries',
+  },
+  {
     title: 'WebStorm',
     href: 'https://www.jetbrains.com/webstorm/',
     icon: 'webstorm',
