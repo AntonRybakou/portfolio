@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="flex-1 flex flex-col md:flex-row items-center justify-center p-8 gap-12">
+    <div className="flex-1 flex flex-col md:flex-row items-center md:justify-center p-8 gap-12 mt-8 md:mt-0">
       <div className="text-center md:text-left max-w-xl order-2 md:order-1 z-10">
         <p className="text-xl md:text-2xl text-muted-foreground mb-8">
           Hi, my name is
