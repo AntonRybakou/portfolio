@@ -11,29 +11,29 @@
     "biome": "biome format --write ./src"
   },
   "dependencies": {
-    "@radix-ui/react-slot": "^1.1.0",
-    "@radix-ui/react-toggle": "^1.1.0",
-    "@radix-ui/react-toggle-group": "^1.1.0",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-toggle": "^1.1.1",
+    "@radix-ui/react-toggle-group": "^1.1.1",
     "@vercel/speed-insights": "^1.1.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "lucide-react": "^0.469.0",
-    "motion": "12.0.0-alpha.2",
-    "next": "15.1.3",
+    "lucide-react": "^0.471.1",
+    "motion": "11.17.0",
+    "next": "15.1.4",
     "next-themes": "^0.4.4",
     "react": "19.0.0",
     "react-dom": "19.0.0",
-    "react-icon-cloud": "^4.1.4",
+    "react-icon-cloud": "^4.1.7",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
-    "@types/node": "^22.10.1",
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
+    "@types/node": "^22.10.5",
+    "@types/react": "^19.0.6",
+    "@types/react-dom": "^19.0.3",
     "postcss": "^8.4.49",
-    "tailwindcss": "^3.4.16",
-    "typescript": "^5.7.2"
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3"
   }
 }
