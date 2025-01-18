@@ -14,7 +14,7 @@ export const Section2022 = () => {
         </Button>
       </p>
       <p>
-        <b>Period:</b> Mer-2022 – Sep-2022
+        <b>Period:</b> Mar-2022 – Sep-2022
       </p>
       <p>
         <b>Project description:</b> ToDo app, SocialNetwork app, a platform for
@@ -22,7 +22,7 @@ export const Section2022 = () => {
         learning efficiency
       </p>
       <p>
-        <b>Role:</b> Frontend Developer (junior)
+        <b>Role:</b> Frontend Developer (intern)
       </p>
       <p>
         <b>Responsibilities:</b>
