@@ -20,7 +20,7 @@ export default function RootLayout({
         <Providers>
           <div className="flex flex-col min-h-[100dvh]">
             <NavHeader />
-            <main className="flex-1 flex flex-col mx-auto max-w-screen-lg w-full">
+            <main className="flex-1 flex flex-col mx-auto max-w-screen-lg w-full z-10">
               {children}
             </main>
             <Footer />
