@@ -5,7 +5,7 @@ import Image from 'next/image'
 export const Footer = () => {
   return (
     <footer className="w-full h-14 my-4 z-10">
-      <div className="max-w-screen-lg mx-auto flex h-14 items-center justify-between px-4 lg:px-0">
+      <div className="max-w-(--breakpoint-lg) mx-auto flex h-14 items-center justify-between px-4 lg:px-0">
         <p className="text-sm text-muted-foreground">
           © {new Date().getFullYear()} Anton Rybakou
         </p>
