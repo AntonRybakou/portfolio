@@ -24,28 +24,28 @@ export function ThemeSwitcher() {
       onValueChange={(value) => {
         if (value) setTheme(value)
       }}
-      className="border rounded-full p-1 w-fit text-muted-foreground"
+      className="border rounded-full p-1 w-fit text-muted-foreground gap-2"
     >
       <ToggleGroupItem
         value="light"
         aria-label="Light mode"
-        className="rounded-full border-none hover:bg-none"
+        className="rounded-full border-none p-2"
       >
-        <Sun className="size-4" />
+        <Sun />
       </ToggleGroupItem>
       <ToggleGroupItem
         value="system"
         aria-label="System mode"
-        className="rounded-full border-none hover:bg-none"
+        className="rounded-full border-none p-2"
       >
-        <Monitor className="size-4" />
+        <Monitor />
       </ToggleGroupItem>
       <ToggleGroupItem
         value="dark"
         aria-label="Dark mode"
-        className="rounded-full border-none hover:bg-none"
+        className="rounded-full border-none p-2"
       >
-        <Moon className="size-4" />
+        <Moon />
       </ToggleGroupItem>
     </ToggleGroup>
   )

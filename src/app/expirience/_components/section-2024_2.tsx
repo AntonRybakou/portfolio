@@ -37,8 +37,8 @@ export const Section2024_2 = () => {
       </ul>
       <p>
         <b>Technologies and tools:</b> React, Vite, Next.js, TypeScript,
-        TailwindCSS, shadcn/ui, RadixUI, i18next, Tanstack Router / Querry /
-        Tables, React-hook-form, Zod, GitLab, Jira,
+        TailwindCSS, shadcn/ui, RadixUI, i18next, RTK Query, Tanstack Router /
+        Querry / Tables, React-hook-form, Zod, GitLab, Jira,
       </p>
     </Card>
   )

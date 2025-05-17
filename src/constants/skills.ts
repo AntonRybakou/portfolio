@@ -10,6 +10,11 @@ export const SKILLS = [
     icon: 'nextdotjs',
   },
   {
+    title: 'Vite',
+    href: 'https://vitejs.dev/',
+    icon: 'vite',
+  },
+  {
     title: 'TypeScript',
     href: 'https://www.typescriptlang.org/',
     icon: 'typescript',
@@ -111,11 +116,6 @@ export const SKILLS = [
     icon: 'bun',
   },
   {
-    title: 'Biome',
-    href: 'https://biomejs.dev/',
-    icon: 'biome',
-  },
-  {
     title: 'pnpm',
     href: 'https://pnpm.io/',
     icon: 'pnpm',
@@ -129,6 +129,11 @@ export const SKILLS = [
     title: 'Yarn',
     href: 'https://yarnpkg.com/',
     icon: 'yarn',
+  },
+  {
+    title: 'Biome',
+    href: 'https://biomejs.dev/',
+    icon: 'biome',
   },
   {
     title: 'Prettier',
