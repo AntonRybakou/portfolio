@@ -1,12 +1,13 @@
 @import "tailwindcss";
 
-@plugin 'tailwindcss-animate';
+@plugin "tailwindcss-animate";
 
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --background-image-custom-gradient: radial-gradient(closest-side, #000, #fff)
-    0 / 1em 1em space, linear-gradient(90deg, #000, #fff);
+  --background-image-custom-gradient:
+    radial-gradient(closest-side, #000, #fff) 0 / 1em 1em space,
+    linear-gradient(90deg, #000, #fff);
 
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));

@@ -1,27 +1,28 @@
+import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card } from '@/components/ui/card'
-import Link from 'next/link'
 
-export const Section2022_2 = () => {
+export const Section2022 = () => {
   return (
     <Card className="p-6">
       <p>
-        <b>Company:</b> Soft Group Solutions,{' '}
+        <b>Company:</b> IT Incubator,{' '}
         <Button asChild variant="link" className="p-0 text-base">
-          <Link href="https://softgroupsolution.com/" target="_blank">
-            https://softgroupsolution.com/
+          <Link href="https://it-incubator.io/" target="_blank">
+            https://it-incubator.io/
           </Link>
         </Button>
       </p>
       <p>
-        <b>Period:</b> Sep-2022 – Mar-2023
+        <b>Period:</b> Mar-2022 – Sep-2022
       </p>
       <p>
-        <b>Project description:</b> A school management plaform for accounting,
-        attendance tracking and communication with parents via SMS reminders
+        <b>Project description:</b> ToDo app, SocialNetwork app, a platform for
+        creating personalized flashcard decks to boost knowledge retention and
+        learning efficiency
       </p>
       <p>
-        <b>Role:</b> Frontend Developer (junior)
+        <b>Role:</b> Frontend Developer (intern)
       </p>
       <p>
         <b>Responsibilities:</b>

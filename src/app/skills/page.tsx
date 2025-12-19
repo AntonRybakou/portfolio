@@ -1,5 +1,5 @@
-import { SkillsInnerPage } from '@/app/skills/_components/skills-inner-page'
 import type { Metadata } from 'next'
+import { SkillsInnerPage } from '@/app/skills/_components/skills-inner-page'
 
 export const metadata: Metadata = {
   title: 'Skills - Anton Rybakou',

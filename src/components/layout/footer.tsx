@@ -1,6 +1,6 @@
-import { ThemeSwitcher } from '@/components/layout/theme-switcher'
-import Link from 'next/link'
 import Image from 'next/image'
+import Link from 'next/link'
+import { ThemeSwitcher } from '@/components/layout/theme-switcher'
 
 export const Footer = () => {
   return (

@@ -1,9 +1,9 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import { badgeVariants } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { SKILLS } from '@/constants/skills'
 import { cn } from '@/lib/utils'
-import Image from 'next/image'
-import Link from 'next/link'
 
 export const SkillsList = () => {
   return (

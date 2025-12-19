@@ -1,8 +1,9 @@
 'use client'
-import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
+
 import { Monitor, Moon, Sun } from 'lucide-react'
 import { useTheme } from 'next-themes'
 import { useEffect, useState } from 'react'
+import { ToggleGroup, ToggleGroupItem } from '@/components/ui/toggle-group'
 
 export function ThemeSwitcher() {
   const [mounted, setMounted] = useState<boolean>(false)

@@ -1,7 +1,7 @@
-import { Button } from '@/components/ui/button'
 import { Download } from 'lucide-react'
 import type { Metadata } from 'next'
 import Image from 'next/image'
+import { Button } from '@/components/ui/button'
 
 export const metadata: Metadata = {
   title: 'About - Anton Rybakou',

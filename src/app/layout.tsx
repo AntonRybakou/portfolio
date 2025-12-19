@@ -1,9 +1,9 @@
 import { Nunito } from 'next/font/google'
 import './globals.css'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import { Footer } from '@/components/layout/footer'
 import { NavHeader } from '@/components/layout/nav-header'
 import { Providers } from '@/components/providers/providers'
-import { SpeedInsights } from '@vercel/speed-insights/next'
 
 const nunito = Nunito({
   subsets: ['latin'],

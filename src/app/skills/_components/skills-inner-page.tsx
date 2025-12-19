@@ -1,8 +1,9 @@
 'use client'
+
+import { useEffect, useState } from 'react'
 import { SkillsList } from '@/app/skills/_components/skills-list'
 import IconCloud from '@/components/ui/icon-cloud'
 import { SKILLS } from '@/constants/skills'
-import { useEffect, useState } from 'react'
 
 export const SkillsInnerPage = () => {
   const [mounted, setMounted] = useState<boolean>(false)

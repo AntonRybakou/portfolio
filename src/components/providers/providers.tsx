@@ -1,6 +1,6 @@
 'use client'
-import { ThemeProvider } from '@/components/providers/theme-provider'
 import type { PropsWithChildren } from 'react'
+import { ThemeProvider } from '@/components/providers/theme-provider'
 
 export const Providers = ({ children }: PropsWithChildren) => {
   return (

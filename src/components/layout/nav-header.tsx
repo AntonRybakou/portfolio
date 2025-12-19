@@ -1,7 +1,6 @@
 'use client'
-import { ThemeSwitcher } from '@/components/layout/theme-switcher'
-import { Button } from '@/components/ui/button'
 import Link from 'next/link'
+import { Button } from '@/components/ui/button'
 
 export const NavHeader = () => {
   return (
@@ -21,7 +20,7 @@ export const NavHeader = () => {
             </li>
             <li>
               <Button asChild variant="link" className="p-0 md:text-lg">
-                <Link href={'/expirience'}>Expirience</Link>
+                <Link href={'/experience'}>Experience</Link>
               </Button>
             </li>
           </ul>

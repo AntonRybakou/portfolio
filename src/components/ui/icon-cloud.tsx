@@ -4,10 +4,10 @@ import { useTheme } from 'next-themes'
 import { useEffect, useMemo, useState } from 'react'
 import {
   Cloud,
-  type ICloud,
-  type SimpleIcon,
   fetchSimpleIcons,
+  type ICloud,
   renderSimpleIcon,
+  type SimpleIcon,
 } from 'react-icon-cloud'
 
 export const cloudProps: Omit<ICloud, 'children'> = {
