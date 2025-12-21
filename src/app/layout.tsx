@@ -1,9 +1,9 @@
 import { Nunito } from 'next/font/google'
-import './globals.css'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-import { Footer } from '@/components/layout/footer'
-import { NavHeader } from '@/components/layout/nav-header'
-import { Providers } from '@/components/providers/providers'
+import { Footer } from '@/shared/components/layout/footer'
+import { NavHeader } from '@/shared/components/layout/nav-header'
+import { Providers } from '@/shared/components/providers/providers'
+import './globals.css'
 
 const nunito = Nunito({
   subsets: ['latin'],
@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${nunito.className} antialiased`}>
         <Providers>
-          <div className="flex flex-col min-h-[100dvh]">
+          <div className="flex flex-col min-h-dvh">
             <NavHeader />
             <main className="flex-1 flex flex-col mx-auto max-w-(--breakpoint-lg) w-full z-10">
               {children}

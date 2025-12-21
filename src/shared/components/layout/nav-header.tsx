@@ -1,6 +1,5 @@
 'use client'
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
 
 export const NavHeader = () => {
   return (
@@ -9,19 +8,19 @@ export const NavHeader = () => {
         <nav>
           <ul className="flex gap-10 items-center">
             <li>
-              <Button asChild variant="link" className="p-0 md:text-lg">
-                <Link href={'/'}>About</Link>
-              </Button>
+              <Link href={'/'} className="p-0 md:text-lg">
+                About
+              </Link>
             </li>
             <li>
-              <Button asChild variant="link" className="p-0 md:text-lg">
-                <Link href={'/skills'}>Skills</Link>
-              </Button>
+              <Link href={'/skills'} className="p-0 md:text-lg">
+                Skills
+              </Link>
             </li>
             <li>
-              <Button asChild variant="link" className="p-0 md:text-lg">
-                <Link href={'/experience'}>Experience</Link>
-              </Button>
+              <Link href={'/experience'} className="p-0 md:text-lg">
+                Experience
+              </Link>
             </li>
           </ul>
         </nav>

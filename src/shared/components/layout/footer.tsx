@@ -1,6 +1,8 @@
+'use client'
+
 import Image from 'next/image'
 import Link from 'next/link'
-import { ThemeSwitcher } from '@/components/layout/theme-switcher'
+import { ThemeSwitcher } from '@/shared/components/layout/theme-switcher'
 
 export const Footer = () => {
   return (

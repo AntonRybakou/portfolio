@@ -1,17 +1,14 @@
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
-import { Card } from '@/components/ui/card'
+import { Card } from '@/shared/shadcn/card'
 
 export const Section2024_2 = () => {
   return (
     <Card className="p-6">
       <p>
         <b>Company:</b> Security Lab,{' '}
-        <Button asChild variant="link" className="p-0 text-base">
-          <Link href="https://securitylab.by/" target="_blank">
-            https://securitylab.by/
-          </Link>
-        </Button>
+        <Link href="https://securitylab.by/" target="_blank">
+          https://securitylab.by/
+        </Link>
       </p>
       <p>
         <b>Period:</b> Dec-2024 – present

@@ -1,7 +1,8 @@
-import { Download } from 'lucide-react'
+import { Download } from '@hugeicons/core-free-icons'
+import { HugeiconsIcon } from '@hugeicons/react'
 import type { Metadata } from 'next'
 import Image from 'next/image'
-import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 export const metadata: Metadata = {
   title: 'About - Anton Rybakou',
@@ -19,17 +20,16 @@ export default function Home() {
         <p className="text-xl md:text-2xl text-muted-foreground mb-8">
           I'm Front-End Developer
         </p>
-        <Button asChild>
-          <a
-            href="/cv_anton_rybakou.pdf"
-            download="cv_anton_rybakou.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Download className="h-5 w-5" />
-            Download CV
-          </a>
-        </Button>
+        <Link
+          href="/cv_anton_rybakou.pdf"
+          download="cv_anton_rybakou.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2"
+        >
+          <HugeiconsIcon icon={Download} className="size-5" />
+          Download CV
+        </Link>
       </div>
       <div className="w-64 h-64 md:w-96 md:h-96 relative overflow-hidden order-1 md:order-2">
         <Image
