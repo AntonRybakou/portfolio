@@ -4,7 +4,7 @@ import { Section2022 } from '@/app/experience/_components/section-2022'
 import { Section2022_2 } from '@/app/experience/_components/section-2022_2'
 import { Section2023 } from '@/app/experience/_components/section-2023'
 import { Section2024 } from '@/app/experience/_components/section-2024'
-import { Timeline } from '@/components/ui/timeline'
+import { Timeline } from '@/shared/components/timeline'
 import { Section2024_2 } from './section-2024_2'
 
 export const ExperienceTimeline = () => {

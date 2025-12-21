@@ -1,17 +1,14 @@
 import Link from 'next/link'
-import { Button } from '@/components/ui/button'
-import { Card } from '@/components/ui/card'
+import { Card } from '@/shared/shadcn/card'
 
 export const Section2022_2 = () => {
   return (
     <Card className="p-6">
       <p>
         <b>Company:</b> Soft Group Solutions,{' '}
-        <Button asChild variant="link" className="p-0 text-base">
-          <Link href="https://softgroupsolution.com/" target="_blank">
-            https://softgroupsolution.com/
-          </Link>
-        </Button>
+        <Link href="https://softgroupsolution.com/" target="_blank">
+          https://softgroupsolution.com/
+        </Link>
       </p>
       <p>
         <b>Period:</b> Sep-2022 – Mar-2023
