@@ -2,8 +2,8 @@
 
 import { useEffect, useState } from 'react'
 import { SkillsList } from '@/app/skills/_components/skills-list'
-import { SKILLS } from '@/constants/skills'
 import IconCloud from '@/shared/components/icon-cloud'
+import { SKILLS } from '@/shared/constants/skills'
 
 export const SkillsInnerPage = () => {
   const [mounted, setMounted] = useState<boolean>(false)

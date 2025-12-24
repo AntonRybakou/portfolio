@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import { SKILLS } from '@/constants/skills'
 import { cn } from '@/shared/lib/utils'
 import { badgeVariants } from '@/shared/shadcn/badge'
+import { SKILLS } from '@/shared/constants/skills'
 
 export const SkillsList = () => {
   return (
